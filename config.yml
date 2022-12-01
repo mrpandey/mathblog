@@ -1,0 +1,176 @@
+baseURL: "https://math.mrpandey.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Math Blog | mrpandey
+paginate: 10
+theme: PaperMod
+copyright: "Copyright 2022-{year} Avinash Pandey. All rights reserved."
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives/
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Dev Blog
+          url: https://dev.mrpandey.com/
+        - name: About Me
+          url: https://mrpandey.com/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "mrpandey's Math Blog"
+  author: Avinash Pandey
+  # author: ["Me", "You"] # multiple authors
+  keywords: ["mrpandey", "math", "blog"]
+
+  mainSections: #only these content will show on home page
+    - post
+
+  defaultTheme: dark
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  # comments: false
+  hideFooter: true
+  # images: ["image-in-static-dir-for-opengraph.png"] # TODO
+
+  profileMode:
+    enabled: false
+    title: Math Blog
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: '✴️ Math Blog'
+    Content: >
+      Hi 🖐️ I am Avinash.
+
+      - Welcome to my blog. I write about math here.
+
+      - I write about programming [here](https://dev.mrpandey.com).
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/mrpandey"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/8216204/mrpandey"
+    - name: twitter
+      url: "https://twitter.com/mrpandey360"
+    - name: linkedin
+      url: https://www.linkedin.com/in/mrpandey360/
+
+  editPost:
+    URL: "https://github.com/mrpandey/mathblog/tree/gh-pages/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "apple-touch-icon.png"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  fuseOpts: #see https://fusejs.io/api/options.html
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  # goldmark:
+  #   renderer:
+  #     unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: false
+    codeFences: false
+    guessSyntax: false
+    lineNos: false
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
