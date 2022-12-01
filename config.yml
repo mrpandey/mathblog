@@ -97,8 +97,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/mrpandey"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/8216204/mrpandey"
+    - name: math.stackexchange
+      url: https://math.stackexchange.com/users/530322/mrpandey
     - name: twitter
       url: "https://twitter.com/mrpandey360"
     - name: linkedin

@@ -8,5 +8,6 @@ slug: ''
 tags: []
 type: post
 weight: 0
+math: true
 ---
 
