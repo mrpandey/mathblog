@@ -1,3 +1,26 @@
+body {
+  font-family: "Noto Serif SC", serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .chroma {
   background-color: unset !important;
+}
+
+.post-title {
+  margin-bottom: 4px;
+  font-size: 34px;
+}
+
+.post-content h2 {
+  font-size: 28px;
+}
+
+.post-content h3 {
+  font-size: 22px;
+}
+
+.post-content h4 {
+  font-size: 18px;
 }
