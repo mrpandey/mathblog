@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://math.mrpandey.com/post/2018/adjacent-bit-counts/</loc>
+    <lastmod>2018-04-30T14:58:01+05:30</lastmod>
+  </url><url>
+    <loc>https://math.mrpandey.com/tags/combinatorics/</loc>
+    <lastmod>2018-04-30T14:58:01+05:30</lastmod>
+  </url><url>
+    <loc>https://math.mrpandey.com/</loc>
+    <lastmod>2018-04-30T14:58:01+05:30</lastmod>
+  </url><url>
+    <loc>https://math.mrpandey.com/post/</loc>
+    <lastmod>2018-04-30T14:58:01+05:30</lastmod>
+  </url><url>
+    <loc>https://math.mrpandey.com/tags/</loc>
+    <lastmod>2018-04-30T14:58:01+05:30</lastmod>
+  </url><url>
     <loc>https://math.mrpandey.com/post/2018/beggars-method/</loc>
     <lastmod>2018-04-29T13:59:09+05:30</lastmod>
   </url><url>
-    <loc>https://math.mrpandey.com/tags/combinatorics/</loc>
-    <lastmod>2018-04-29T13:59:09+05:30</lastmod>
-  </url><url>
-    <loc>https://math.mrpandey.com/</loc>
-    <lastmod>2018-04-29T13:59:09+05:30</lastmod>
-  </url><url>
     <loc>https://math.mrpandey.com/tags/number-theory/</loc>
-    <lastmod>2018-04-29T13:59:09+05:30</lastmod>
-  </url><url>
-    <loc>https://math.mrpandey.com/post/</loc>
-    <lastmod>2018-04-29T13:59:09+05:30</lastmod>
-  </url><url>
-    <loc>https://math.mrpandey.com/tags/</loc>
     <lastmod>2018-04-29T13:59:09+05:30</lastmod>
   </url><url>
     <loc>https://math.mrpandey.com/archives/</loc>

@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Math Blog | mrpandey</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright 2022-{year} Avinash Pandey. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 29 Apr 2018 13:59:09 +0530</lastBuildDate><atom:link href="https://math.mrpandey.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Apr 2018 14:58:01 +0530</lastBuildDate><atom:link href="https://math.mrpandey.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adjacent Bit Counts</title>
+      <link>https://math.mrpandey.com/post/2018/adjacent-bit-counts/</link>
+      <pubDate>Mon, 30 Apr 2018 14:58:01 +0530</pubDate>
+      
+      <guid>https://math.mrpandey.com/post/2018/adjacent-bit-counts/</guid>
+      <description>An interesting combinatorial problem I found on SPOJ.</description>
+    </item>
+    
     <item>
       <title>Beggar&#39;s Method</title>
       <link>https://math.mrpandey.com/post/2018/beggars-method/</link>
